@@ -18,32 +18,53 @@
     <!-- Sidebar-->
     <div class="wrapper">
       <aside class="sidebar">
-        <img src="./img/photo.jpg" alt="My photo" />
-        <div class="contacts">
+        <div>
+          <img src="./img/photo.jpg" alt="My photo" width="350"/>
+        </div>
+        <div class="info">
           <h3 class="contacts-title">Contacts</h3>
-          <div>
-            <span class="contacts-type">C:</span>
-            <a class="telephone-mail" href="tel:380684598699"
+          <ul class="contacts-links">
+            <li class="contacts-item">
+            <span class="contacts-type">
+            <img src="./img/call.svg" width="20" height="20"/>
+            </span>
+            <a class="item-of-contacts" href="tel:380684598699"
               >+38 068 459 86 99</a
             >
-          </div>
-
-          <div>
-            <span class="contacts-type">E:</span>
-            <a class="telephone-mail" href="mailto:kus_queen@icloud.com"
+          </li>
+          <li class="contacts-item">
+            <span class="contacts-type">
+              <img src="./img/mail.svg" width="20" height="20"/>
+            </span>
+            <a class="item-of-contacts" href="mailto:kus_queen@icloud.com"
               >kus_queen@icloud.com</a
             >
-          </div>
-        </div>
+          </li>
+          <li class="contacts-item">
+            <span class="contacts-type">
+              <img src="./img/github.svg" width="20" height="20"/>
+            </span>
+          <a class="item-of-contacts" href="https://github.com/kapustikk" target="_blank">GitHub</a>
+        </li>
+        <li class="contacts-item">
+          <span class="contacts-type">
+            <img src="./img/linkedin.svg" width="20" height="20"/>
+          </span>
+        <a class="item-of-contacts" href="https://www.linkedin.com/in/yuliia-kovalenko-b1b469211/" target="_blank">LinkedIn</a>
+      </li>
+        </ul>
 
         <div class="Tech-Skills">
           <h3 class="tech-skills-title">Tech Skills</h3>
           <ul>
             <li class="all-tech-skills">
-              <span class="skills-point">HTML</span>
+              <span class="skills-point">HTML5</span>
             </li>
             <li class="all-tech-skills">
               <span class="skills-point">CSS3</span>
+            </li>
+            <li class="all-tech-skills">
+              <span class="skills-point">SASS</span>
             </li>
             <li class="all-tech-skills">
               <span class="skills-point">GIT</span>
@@ -58,7 +79,13 @@
               <span class="skills-point">React.js</span>
             </li>
             <li class="all-tech-skills">
+              <span class="skills-point">Redux</span>
+            </li>
+            <li class="all-tech-skills">
               <span class="skills-point">Node.js</span>
+            </li>
+            <li class="all-tech-skills">
+              <span class="skills-point">MongoDB</span>
             </li>
           </ul>
         </div>
@@ -86,13 +113,14 @@
             </li>
           </ul>
         </div>
+        </div>
       </aside>
 
       <!-- about me container-->
 
       <div class="about-me-container">
         <div>
-          <h2 class="profession">Front-End Developer</h2>
+          <h2 class="profession">Full stack Developer</h2>
           <h1>Yulia Kovalenko</h1>
           <p class="about-me-info">
             I'm aspiring to create a succesful career in IT. Due to my extensive
@@ -102,28 +130,66 @@
         </div>
 
         <div class="Projects">
-          <h3 class="projects-title">Projects</h3>
+          <h3 class="projects-title">  Team Projects</h3>
           <ol class="all-links">
-            <li>
-              <a class="links" href="https://thirsty-pare-174fac.netlify.com/"
-                >https://thirsty-pare-174fac.netlify.com/</a
+            
+            <li class="link">
+              <a class="links" href="https://protest-api.netlify.app/auth"
+                >https://protest-api.netlify.app/auth</a
               >
-              <span class="dots">.........</span>
-              <span> <b>[</b> HTML, CSS3 <b>]</b> </span>
+              <span>[HTML5 CSS ReactJS NODE JS]</span>
             </li>
-            <li>
-              <a class="links" href="www.">www.</a
-              ><span class="dots"
-                >......................................................................................</span
+            
+            <li class="link">
+              <a class="links" href="https://kapustikk.github.io/the_most_successful_project_group2/"
+                >https://kapustikk.github.io/the_most_successful_project_group2/</a
               >
-              <span> <b>[</b> JavaScript <b>]</b> </span>
+              <span> [HTML5 CSS JS] </span>
             </li>
-            <li>
-              <a class="links" href="www.">www.</a
-              ><span class="dots"
-                >......................................................................................</span
+          </ol>
+          </div>
+          <div class="Projects">
+            <h3 class="projects-title">Personal Projects</h3>
+            <ol class="all-links">
+            <li class="link">
+              <a class="links" href="https://github.com/kapustikk/nodejs-homework-rest-api"
+                >https://github.com/kapustikk/nodejs-homework-rest-api</a
               >
-              <span> <b>[</b> JavaScript <b>]</b> </span>
+              <span>[NODE JS]</span>
+            </li>
+            <li class="link">
+              <a class="links" href="https://your-personal-phonebook.netlify.app/">https://your-personal-phonebook.netlify.app/</a>
+              <span> [ React JS, Redux ] </span>
+            </li>
+            <li class="link">
+              <a class="links" href="https://kapustikk.github.io/to_do_list/">https://kapustikk.github.io/to_do_list/</a
+              >
+              <span> [ React JS Redux/toolkit] </span>
+            </li>
+            <li class="link">
+              <a class="links" href="https://filmflix.netlify.app/"
+                >https://filmflix.netlify.app/</a
+              >
+              <span> [React JS] </span>
+            </li>
+            <li class="link">
+              <a class="links" href="https://kapustikk.github.io/goit-react-hw-04-hooks-images/"
+                >https://kapustikk.github.io/goit-react-hw-04-hooks-images/</a
+              >
+              <span> [ReactJS-hooks] </span>
+            </li>
+            <li class="link">
+              <a class="links" href="https://kapustikk.github.io/goit-react-hw-04-hooks-feedback/"
+                >https://kapustikk.github.io/goit-react-hw-04-hooks-feedback/</a
+              >
+              <span> [ReactJS-hooks] </span>
+            </li>
+            
+            <li class="link">
+              <a class="links" href="https://kapustikk.github.io/goit-markup-hw-08/"
+                >https://kapustikk.github.io/goit-markup-hw-08/</a
+              >
+              <span> [HTML5 CSS] </span>
             </li>
           </ol>
         </div>
@@ -142,32 +208,32 @@
             <span class="city">|</span> Ukraine</span
           >
           <ul class="responsibilities">
+            <h4 class="h4">
+              Developing website for Atlas Corporation LLC <span>(in progress) : </span>
+            </h4>
+            <li>Markup for web pages</li>
             <li>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Create cascading CSS that are consistent across all browsers and platforms
             </li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li>Risus commodo viverra maecenas.</li>
-            <li>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod.
-            </li>
+            <li>Develop functional and appealing web-based app based on usability</li>
+            <li>Provide website maintenance and enhancements</li>
+            
           </ul>
         </div>
 
         <div>
           <h4 class="job-title">
-            Office Manager <span class="work-position">Finunion</span>
+            Project Manager <span class="work-position">Atlas Corporation LLC</span>
           </h4>
           <span class="time"
-            >August 2018 - March 2019 <span class="city">|</span> London</span
+            >October 2017 - nowadays <span class="city">|</span>Ukraine</span
           >
           <ul class="responsibilities">
-            <li>Coordinated logistics for corporate events</li>
-            <li>Office operations</li>
-            <li>Booking</li>
-            <li>Accompanying the team to exhibitions and meeting customers</li>
-            <li>Switchboard operator</li>
+            <li>Preparing projects documentation</li>
+            <li>Organizing team of workers and needed for project equipment</li>
+            <li>Communication between customers and suppliers</li>
+            <li>Preparing weekly or months progress reports</li>
+            <li>Help with preparing of documentation for The Customer House</li>
           </ul>
         </div>
 
@@ -176,7 +242,7 @@
             Office Manager <span class="work-position">NDA</span>
           </h4>
           <span class="time"
-            >July 2017 - July 2018 <span class="city">|</span> Ukraine
+            >July 2015 - July 2017 <span class="city">|</span> Ukraine
           </span>
           <ul class="responsibilities">
             <li>
@@ -193,17 +259,23 @@
         <div>
           <h3 class="education-title">Education</h3>
           <div>
-            <h4 class="University">Kremenchuk National University</h4>
-            <h5 class="speciality">M.A. Ecology and environment protection</h5>
-            <span class="study-time">September 2008 - June 2013</span>
+            <h4 class="University">IT school GoIT</h4>
+            <h5 class="speciality">
+              Full stack Developer
+            </h5>
+            <span class="study-time">April 2020-April 2021</span>
           </div>
-
           <div>
             <h4 class="University">British Study Centres London</h4>
             <h5 class="speciality">
               General English course | B2 Upper-Intermediate
             </h5>
             <span class="study-time">March 2019-August 2019</span>
+          </div>
+          <div>
+            <h4 class="University">Kremenchuk National University</h4>
+            <h5 class="speciality">M.A. Ecology and environment protection</h5>
+            <span class="study-time">September 2008 - June 2013</span>
           </div>
         </div>
       </div>

@@ -21,8 +21,10 @@ body {
 .sidebar {
   background-color: teal;
   width: 371px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+}
+
+.info {
+  padding: 40px;
 }
 
 .about-me-container {
@@ -33,9 +35,10 @@ body {
 }
 
 .contacts {
+  
   margin-top: 60px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contacts-title {
@@ -46,9 +49,17 @@ body {
   margin-bottom: 20px;
 }
 
-.telephone-mail {
+.contacts-links {
+  padding: 20px;
+}
+
+.contacts-item {
+  list-style: none;
+}
+
+.item-of-contacts {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 24px;
   color: #ffd700;
 }
@@ -57,14 +68,17 @@ body {
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
-  color: white;
   margin-right: 10px;
+}
+
+.svg {
+  fill: white;
 }
 
 .Tech-Skills {
   margin-top: 55px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tech-skills-title {
@@ -89,8 +103,8 @@ body {
 
 .soft-skills {
   margin-top: 55px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .soft-skills-title {
@@ -140,6 +154,16 @@ body {
 
 .links {
   color: #696969;
+}
+
+.link {
+margin-top: 10px;
+}
+
+.h4 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .dots {
