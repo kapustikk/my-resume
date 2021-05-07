@@ -19,7 +19,7 @@ body {
 }
 
 .sidebar {
-  background-color: teal;
+  background-color: #11471e;
   width: 371px;
 }
 
@@ -126,7 +126,7 @@ body {
 .profession {
   margin-bottom: 40px;
   font-size: medium;
-  border: 3px solid teal;
+  border: 3px solid #0e5a1f;
   padding: 10px;
 }
 
@@ -185,7 +185,7 @@ margin-top: 10px;
 }
 .time {
   margin-bottom: 20px;
-  color: #ffd700;
+  color: #042c0d;
   font-size: small;
 }
 
@@ -216,6 +216,15 @@ margin-top: 10px;
 }
 
 .study-time {
-  color: #ffd700;
+  color: #042c0d;
   font-size: small;
+}
+
+.role {
+  margin-top: 10px;
+}
+
+.linkToSite {
+  font-size: 16px;
+  margin-top: 5px;
 }
