@@ -20,7 +20,7 @@ body {
 
 .sidebar {
   background-color: #11471e;
-  width: 371px;
+  width: 370px;
 }
 
 .info {
@@ -50,7 +50,7 @@ body {
 }
 
 .contacts-links {
-  padding: 20px;
+  padding: 10px;
 }
 
 .contacts-item {
