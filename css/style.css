@@ -10,13 +10,27 @@ body {
   padding-top: 20px;
   padding-left: 20px;
   padding-bottom: 20px;
-  padding-right: 350px;
+  padding-right: 20px;
   font-family: Montserrat;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    width: 350px;
+  }
 }
 
 .wrapper {
   background: white;
   display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    width: 350px;
+  }
 }
 
 .sidebar {
@@ -33,6 +47,12 @@ body {
   padding-bottom: 110px;
   padding-left: 90px;
   padding-right: 90px;
+}
+
+@media screen and (max-width: 767px) {
+  .about-me-container {
+    width: 350px;
+  }
 }
 
 .contacts {
@@ -149,6 +169,7 @@ body {
 }
 
 .all-links {
+  
   margin-top: 30px;
   margin-left: 20px;
 }
@@ -159,6 +180,14 @@ body {
 
 .link {
 margin-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+  }
 }
 
 .h4 {
