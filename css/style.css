@@ -103,7 +103,7 @@ body {
 }
 
 .Tech-Skills {
-  margin-top: 55px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -125,11 +125,11 @@ body {
 }
 
 .skills-point {
-  color: white;
+  color: whitesmoke;
 }
 
 .soft-skills {
-  margin-top: 55px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -200,7 +200,7 @@ margin-top: 10px;
 
 .h4 {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 17px;
   margin-bottom: 10px;
 }
 
@@ -232,8 +232,10 @@ margin-top: 10px;
 }
 
 .responsibilities {
+  font-size: 14px;
   margin-top: 30px;
   margin-left: 20px;
+  margin-right: 20px;
   margin-bottom: 30px;
 }
 
@@ -243,7 +245,8 @@ margin-top: 10px;
 }
 
 .University {
-  color: teal;
+  color: #ffd700;
+  font-size: 14px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -259,8 +262,13 @@ margin-top: 10px;
 }
 
 .role {
-  width: 900px;
+  width: 700px;
   margin-top: 10px;
+}
+
+.all-links {
+  font-size: 14px;
+
 }
 
 .linkToSite {
